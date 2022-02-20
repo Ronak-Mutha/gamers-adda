@@ -1,0 +1,76 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-container {
+    margin: var(--sp-24);
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-16);
+}
+
+.category-container {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.category {
+    position: relative;
+    cursor: pointer;
+}
+
+.category-image {
+    position: relative;
+    filter: brightness(50%);
+}
+
+.category-image:hover {
+    filter: brightness(80%);
+}
+
+.category::after {
+    content: 'Sale';
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 20%;
+    width: 100%;
+    background-color: var(--white);
+    color: var(--text-color);
+    filter: brightness(100%);
+}
+
+.banner {
+    width: 95vw;
+    margin: var(--sp-16) auto;
+    cursor: pointer;
+    background: var(--white);
+}
+
+.banner img {
+    width: 95vw;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 769px) {
+    .category-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner {
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .category-container {
+        grid-template-columns: 1fr;
+    }
+}
