@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <title>Gamer's Adda | Cart</title>
+
+    <link rel="stylesheet" href="https://unstoppable-ui.netlify.app/style.css" />
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/homepage.css">
+    <link rel="stylesheet" href="../styles/cart.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="logo-container">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/images/gamers-adda-primary.svg" alt="logo" />
+                </a>
+            </div>
+
+            <div class="nav-search">
+                <form class="form-search">
+                    <div class="search-container">
+                        <input class='search-input' type="search" name="search"
+                            placeholder="What are you looking for?" />
+                        <button class='btn-search' type="submit">
+                            <i class="fas fa-search" title="Search" aria-hidden="true"></i>
+                            <span class="visually-hidden">Search</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <ul class="nav-links">
+                    <li class="mr-5">
+                        <button class="btn btn-primary btn-link">
+                            <a href="./login.html" target="_blank" rel="noreferrer noopener">Login</a>
+                        </button>
+                    </li>
+                    <li class="mr-5">
+                        <a href="./wishlist.html" target="_blank" rel="noreferrer noopener">
+                            <div class="badge-container icon-lg">
+                                <i class="far fa-heart" title="Wishlist" aria-hidden="true"></i>
+                                <span class="icon-badge">2</span>
+                                <span class="visually-hidden">Wishlist</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./cart.html" target="_blank" rel="noreferrer noopener">
+                            <div class="badge-container icon-lg">
+                                <i class="fas fa-shopping-cart" title="Wishlist" aria-hidden="true"></i>
+                                <span class="icon-badge">2</span>
+                                <span class="visually-hidden">Shopping Cart</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="cart-container">
+            <h1>MY CART(2)</h1>
+            <div class="cart-items">
+                <article class="card horizontal-card">
+                    <img class="card-img" src="./../assets/images/fifa-22.jpg" alt="fifa 22" />
+                    <div class="content">
+                        <h3>FIFA 22 For PC</h3>
+                        <div class="buy-info">
+                            <p>
+                                <strong>Rs. 4999</strong> <small><s>Rs. 2499</s></small>
+                                <small class="card-discount">(50% OFF)</small>
+                            </p>
+                            <div class="product-count">
+                                <button>
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                                <span>2</span>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary br-1 action-button"><i class="fas fa-shopping-cart"></i>Move to Wishlist</button>
+                            <button class="btn br-1 action-button remove-button"><i class="fas fa-trash"></i>Remove</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="card text-card card-shadow">
+                    <h3>Price Total</h3>
+                    <div class="text-container">
+                        <div class="text-container-content">
+                            <p>Price(2 items)</p>
+                            <p>5000 /-</p>
+                        </div>
+                        <div class="text-container-content">
+                            <p>Discount</p>
+                            <p>-2500 /-</p>
+                        </div>
+                        <div class="text-container-content">
+                            <p>Delivery Charges</p>
+                            <p>50 /-</p>
+                        </div>
+                        <div class="text-container-content total-amount">
+                            <p>Total Amount</p>
+                            <p>2550 /-</p>
+                        </div>
+                    </div>
+                    <p>You'll save Rs.2500 on this order</p>
+                    <button class="btn btn-primary br-1 action-button"><i class="fas fa-cart-plus"></i>Place Order</button>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p>Copyright &copy; 2022 <span class="primary-color">Gamer's Adda</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
