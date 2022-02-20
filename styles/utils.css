@@ -13,3 +13,11 @@ text-decoration: none;
 .filled{
     color: var(--burnt-red);
 }
+
+.text-card{
+    padding: var(--sp-16);
+}
+
+.action-button, .remove-button {
+    width: 100%;
+}
