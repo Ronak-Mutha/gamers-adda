@@ -11,7 +11,7 @@
 
 .login-container{
     margin: var(--sp-64) auto;
-    padding: var(--sp-16);
+    padding: var(--sp-16) var(--sp-64);
     background-color: var(--white);
     border:none;
     box-shadow: 0 0 3px var(--light-gray);

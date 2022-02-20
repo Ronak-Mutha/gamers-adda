@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <title>Gamer's Adda | Signup</title>
+
+    <link rel="stylesheet" href="https://unstoppable-ui.netlify.app/style.css" />
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/homepage.css">
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="logo-container">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/images/gamers-adda-primary.svg" alt="logo" />
+                </a>
+            </div>
+
+            <div class="nav-search">
+                <form class="form-search">
+                    <div class="search-container">
+                        <input class='search-input' type="search" name="search"
+                            placeholder="What are you looking for?" />
+                        <button class='btn-search' type="submit">
+                            <i class="fas fa-search" title="Search" aria-hidden="true"></i>
+                            <span class="visually-hidden">Search</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <ul class="nav-links">
+                    <li class="mr-5">
+                        <button class="btn btn-primary btn-link">
+                            <a href="./login.html" target="_blank" rel="noreferrer noopener">Login</a>
+                        </button>
+                    </li>
+                    <li class="mr-5">
+                        <a href="./wishlist.html" target="_blank" rel="noreferrer noopener">
+                            <div class="badge-container icon-lg">
+                                <i class="far fa-heart" title="Wishlist" aria-hidden="true"></i>
+                                <span class="icon-badge">2</span>
+                                <span class="visually-hidden">Wishlist</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./cart.html" target="_blank" rel="noreferrer noopener">
+                            <div class="badge-container icon-lg">
+                                <i class="fas fa-shopping-cart" title="Wishlist" aria-hidden="true"></i>
+                                <span class="icon-badge">2</span>
+                                <span class="visually-hidden">Shopping Cart</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="login-container">
+            <h1>Signup</h1>
+            <form class="form">
+                <label for="email">Email address</label>
+                <input type="text" name="email" id="email" placeholder="john.doe@gmail.com" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="*********" required><br />
+                <label><input type="checkbox" name="remember-me"> I accept all Terms & Conditions</label>
+                <button type="submit" class="btn btn-primary form-button">Create New Account</button>
+                <a href='./login.html' class="text-decoration-none text-color-black"> Already have an account &gt;</a>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p>Copyright &copy; 2022 <span class="primary-color">Gamer's Adda</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
