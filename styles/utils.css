@@ -9,3 +9,7 @@ text-decoration: none;
 .text-color-black{
     color: var(--text-color);
 }
+
+.filled{
+    color: var(--burnt-red);
+}
