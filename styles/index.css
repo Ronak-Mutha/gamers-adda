@@ -12,6 +12,7 @@ body{
     display:flex;
     flex-direction: column;
     min-height:100vh;
+    overflow-x: hidden;
 }
 
 main{
@@ -25,4 +26,18 @@ main{
     min-height: 100px;
     background-color: var(--black);
     color: var(--white);
+}
+
+*::-webkit-scrollbar{
+    width: var(--sp-8);
+}
+
+*::-webkit-scrollbar-track{
+    background-color: var(--background-color);
+
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 99px;
 }
