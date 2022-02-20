@@ -1,3 +1,11 @@
 .primary-color{
     color: var(--primary-color);
 }
+
+.text-decoration-none{
+text-decoration: none;
+}
+
+.text-color-black{
+    color: var(--text-color);
+}
